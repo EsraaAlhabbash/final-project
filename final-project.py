@@ -196,6 +196,21 @@ if selection == 1:
 
         print("Student Added Successfully")
 
+solution
+student = Student(student_name, student_age, student_number)
+            students_list.append(student)
+            print("Student Added Successfully!")
+
+
+
+
+
+
+
+
+
+
+
     elif selection == 2:
         student_number = input("Enter Student Number")
         # TODO 12 find the target student using loops and delete it if exist , if not print ("Student Not Exist")
