@@ -48,14 +48,26 @@ def __init__(self, student_name, student_age, student_number):
 
 
 
-
-
-
     # TODO 5 define a method to enroll new course to student courses list
 
     # method to get_student_details as dict
     def get_student_details(self):
         return self.__dict__
+solution
+def enroll_course(self, course_name, course_mark):
+        course = Course(course_name, course_mark)
+        self.courses_list.append(course)
+
+    def get_student_details(self):
+        return self.__dict__
+
+
+
+
+
+
+
+
 
     # method to get_student_courses
     def get_student_courses(self):
