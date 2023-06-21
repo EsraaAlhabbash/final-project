@@ -108,6 +108,22 @@ def get_student_average(self):
 # in Global Scope
 # TODO 8 declare empty students list
 
+solution
+
+students_list = []
+
+
+
+
+
+
+
+
+
+
+
+
+
 while True:
 
     # TODO 9 handle Exception for selection input
