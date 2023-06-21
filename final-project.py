@@ -86,6 +86,18 @@ def get_student_courses(self):
     def get_student_average(self):
         # TODO 7 return the student average
         pass
+solution
+
+def get_student_average(self):
+        if len(self.courses_list) == 0:
+            print("No Courses Found!")
+            return 0
+        total = 0
+        for course in self.courses_list:
+            total += course.course_mark
+        return total / len(self.courses_list)
+
+
 
 
 
