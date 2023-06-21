@@ -169,6 +169,29 @@ while True:
             except:
                 print("Invalid Value")
 
+solution
+if selection == 1:
+        student_number = input("Enter Student Number: ")
+        is_duplicate = False
+        for student in students_list:
+            if student.student_number == student_number:
+                is_duplicate = True
+                break
+        if is_duplicate:
+            print("Student Number already exists!")
+        else:
+            student_name = input("Enter Student Name: ")
+            while True:
+                try:
+                    student_age = int(input("Enter Student Age: "))
+                    break
+                except ValueError:
+                    print("Invalid Value!")
+
+
+
+
+
         # TODO 11 create student object and append it to students list
 
         print("Student Added Successfully")
