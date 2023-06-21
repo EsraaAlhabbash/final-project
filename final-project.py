@@ -59,12 +59,7 @@ def enroll_course(self, course_name, course_mark):
         self.courses_list.append(course)
 
     def get_student_details(self):
-        return self.__dict__
-
-
-
-
-
+        return self.__dict_
 
 
 
@@ -73,11 +68,29 @@ def enroll_course(self, course_name, course_mark):
     def get_student_courses(self):
         # TODO 6 print student courses with their marks
         pass
+solution
+
+def get_student_courses(self):
+        for course in self.courses_list:
+            print("Course Name:", course.course_name, " - Course Mark:", course.course_mark)
+
+
+
+
+
+
+
+
 
     # method to get student_average as a value
     def get_student_average(self):
         # TODO 7 return the student average
         pass
+
+
+
+
+
 
 
 # in Global Scope
