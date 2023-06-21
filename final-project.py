@@ -133,6 +133,28 @@ while True:
                           "4.Get Student Average\n"
                           "5.Add Course to student with mark.\n"
                           "6.Exit"))
+solution 
+while True:
+    try:
+        selection = int(input("1.Add New Student\"
+                              "2.Delete Student\"
+                              "3.Display Student\"
+                              "4.Get Student Average\"
+                              "5.Add Course to student with mark.\"
+                              "6.Exit"))
+    except ValueError:
+        print("Invalid Selection!")
+        continue
+
+  
+
+
+
+
+
+
+
+
 
     if selection == 1:
 
