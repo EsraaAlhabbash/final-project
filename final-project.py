@@ -222,19 +222,35 @@ elif selection == 2:
 
 
 
-
-
-
-
-
-
-
-
-
-
     elif selection == 3:
         student_number = input("Enter Student Number")
         # TODO 13 find the target student using loops and print student detials  if exist , if not print ("Student Not Exist")
+ solution
+
+elif selection == 3:
+        student_number = input("Enter Student Number: ")
+        for student in students_list:
+            if student.student_number == student_number:
+                student_details = student.get_student_details()
+                print("Student Details:")
+                for key, value in student_details.items():
+                    if key == "courses_list":
+                        continue
+                    print(key.capitalize(), ":", value)
+                student.get_student_courses()
+                break
+        else:
+            print("Student Not Exist!")
+
+
+
+
+
+
+
+
+
+
 
     elif selection == 4:
         student_number = input("Enter Student Number")
