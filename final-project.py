@@ -266,14 +266,35 @@ elif selection == 4:
 
 
 
-
-
-
-
     elif selection == 5:
         student_number = input("Enter Student Number")
         # TODO 15 ask user to enter course name and course mark then create coures object then append it to target student courses
 
+solution
+elif selection == 5:
+        student_number = input("Enter Student Number: ")
+        for student in students_list:
+            if student.student_number == student_number:
+                course_name = input("Enter Course Name: ")
+                while True:
+                    try:
+                        course_mark = int(input("Enter Course Mark: "))
+                        break
+                    except ValueError:
+                        print("Invalid Value!")
+                student.enroll_course(course_name, course_mark)
+                print("Course Enrolled Successfully!")
+                break
+        else:
+            print("Student Not Exist!")
+
+
+
+
+
+
+
     else:
+    
         # TODO 16 call a function to exit the program
         pass
