@@ -294,7 +294,25 @@ elif selection == 5:
 
 
 
+
+
+
+
+
+
     else:
     
         # TODO 16 call a function to exit the program
         pass
+
+
+else:
+        exit()
+
+
+
+
+
+
+
+
